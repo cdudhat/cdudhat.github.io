@@ -1,0 +1,21 @@
+# Site settings
+title: Chirag's Learn Blog
+header-img: img/home-bg.png
+email: cdudhat@gmail.com
+copyright_name: cdudhat
+description: > # this means to ignore newlines until "baseurl:"
+  Learning away - One lab at a time
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: cjdudhat
+github_username:  cdudhat
+learn_profile: cdudhat
+email_username: cdudhat@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
